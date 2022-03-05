@@ -2,6 +2,7 @@ version: '3.9'
 services:
   cassandra:
     image: cassandra:latest
+    container_name: cass_clusters0
     ports:
       - 9042:9042
     volumes:
